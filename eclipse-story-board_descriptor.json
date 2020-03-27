@@ -1,0 +1,132 @@
+{
+    "version": null,
+    "displayName": "Eclipse - Story Board",
+    "type": "eclipse-story-board",
+    "logo": "eclipse-story-board.png",
+    "logoSmall": "eclipse-story-board_small.png",
+    "metadata": [
+        {
+            "name": "artifacttype",
+            "dependent": false,
+            "dependentMetadata": null,
+            "values": [
+                {
+                    "id": "Story",
+                    "name": "Story",
+                    "attributeName": null,
+                    "referenceType": null,
+                    "dependents": null,
+                    "regex": false
+                }
+            ]
+        }
+    ],
+    "fields": [
+        {
+            "id": "linked_story_id",
+            "name": "Linked Story ID",
+            "datatype": "string",
+            "values": null
+        },
+        {
+            "id": "description",
+            "name": "Description",
+            "datatype": "string",
+            "values": null
+        },
+        {
+            "id": "id",
+            "name": "Id",
+            "datatype": "string",
+            "values": null
+        },
+        {
+            "id": "title",
+            "name": "Title",
+            "datatype": "string",
+            "values": null
+        },
+        {
+            "id": "priority",
+            "name": "Priority",
+            "datatype": "string",
+            "values": null
+        },
+        {
+            "id": "created_by",
+            "name": "Created By",
+            "datatype": "string",
+            "values": null
+        },
+        {
+            "id": "status",
+            "name": "Status",
+            "datatype": "string",
+            "values": [
+                {
+                    "id": "New",
+                    "name": "New",
+                    "attributeName": null,
+                    "referenceType": null,
+                    "dependents": null,
+                    "regex": false
+                },
+                {
+                    "id": "Started",
+                    "name": "Started",
+                    "attributeName": null,
+                    "referenceType": null,
+                    "dependents": null,
+                    "regex": false
+                },
+                {
+                    "id": "Completed",
+                    "name": "Completed",
+                    "attributeName": null,
+                    "referenceType": null,
+                    "dependents": null,
+                    "regex": false
+                },
+                {
+                    "id": "Closed",
+                    "name": "Closed",
+                    "attributeName": null,
+                    "referenceType": null,
+                    "dependents": null,
+                    "regex": false
+                }
+            ]
+        },
+        {
+            "id": "assigned_to",
+            "name": "Assigned To",
+            "datatype": "string",
+            "values": null
+        }
+    ],
+    "loginOptions": [],
+    "idFieldName": "id",
+    "titleFieldName": "title",
+    "projectFieldName": "",
+    "artifactFieldName": "artifacttype",
+    "testStepsFieldName": "",
+    "changedDateFieldName": "modified",
+    "dateFormat": "M/d/yyyy hh:mm aaa",
+    "dateTimeFormat": "M/d/yyyy hh:mm aaa",
+    "queryDateFormat": null,
+    "isISO8601DateFormat": "false",
+    "commentFieldName": "Comment",
+    "commentFieldId": "comment",
+    "attachmentFieldName": "Attachments",
+    "attachmentFieldId": "attachments",
+    "apiVersion": "1",
+    "callBackUrlConfigured": false,
+    "callBackUrls": [],
+    "apiProvider": "ConnectALL",
+    "applicationType": "ConnectALL",
+    "urlDescription": "",
+    "userNameDescription": "",
+    "passwordDescription": "",
+    "paginationSupported": false,
+    "paginationAttributes": null
+}
